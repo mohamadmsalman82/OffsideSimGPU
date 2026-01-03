@@ -1,0 +1,8 @@
+seed=42
+scenario_count=20000
+offside_rate=0.12835
+mean_offside_margin_m=0.0803507
+offside_lt_0_3m_ratio=0.994157
+offside_gt_1_0m_ratio=0
+daylight_gap_m=0.025
+daylight_flip_ratio=0.229451
