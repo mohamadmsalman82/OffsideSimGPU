@@ -29,16 +29,16 @@ __device__ inline float max_playable(float head_x, float hip_x, float lf_x, floa
 }
 
 struct PlayerSoADeviceView {
-    const float *torso_x;
-    const float *torso_y;
-    const float *hip_x;
-    const float *hip_y;
-    const float *left_foot_x;
-    const float *left_foot_y;
-    const float *right_foot_x;
-    const float *right_foot_y;
-    const float *head_x;
-    const float *head_y;
+     float *torso_x;
+     float *torso_y;
+     float *hip_x;
+     float *hip_y;
+     float *left_foot_x;
+     float *left_foot_y;
+     float *right_foot_x;
+     float *right_foot_y;
+     float *head_x;
+     float *head_y;
 };
 
 __global__ void offsideKernel(PlayerSoADeviceView attackers,
