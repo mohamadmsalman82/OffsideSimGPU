@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 3.18)
+
+set(CUDAToolkit_ROOT "C:/Progrm Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1")
+set(CMAKE_CUDA_FLAGS_INIT "-allow-unsupported-compiler")
+
 project(offside_sim LANGUAGES CXX CUDA)
+
+enable_language(CUDA)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
